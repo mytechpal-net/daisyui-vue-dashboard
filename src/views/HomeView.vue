@@ -4,10 +4,6 @@ import HelloWorld from '@/components/HelloWorld.vue'
 <template>
   <h2>HomeView</h2>
   <p>This is the home view</p>
-  <nav>
-    <RouterLink to="/">Go to Home</RouterLink>
-    <RouterLink to="/about">Go to About</RouterLink>
-  </nav>
   <div class="flex justify-center">
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />

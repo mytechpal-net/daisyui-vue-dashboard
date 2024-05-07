@@ -19,7 +19,7 @@ const search = computed({
   <h2>AboutView</h2>
   <p>This is the About view</p>
   <nav>
-    <RouterLink to="/">Go to Home</RouterLink>
+    <RouterLink to="/home">Go to Home</RouterLink>
     <RouterLink to="/about">Go to About</RouterLink>
   </nav>
   <label>
